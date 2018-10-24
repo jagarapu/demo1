@@ -1,14 +1,24 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "company/demobundle",
     "license": "MIT",
-    "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "type": "symfony-bundle",
+    "description": "A demo bundle",
+    "authors" : [{
+        "name" : "demo1",
+        "email" : "somesh.jagarapu@gmail.com"
+    }],
+    "keywords" : [
+        "demo1 bundle"
+    ],
     "autoload": {
         "psr-4": {
             "": "src/"
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
+    "target-dir" : "Company/DemoBundle",
+    "repositories" : [{
+    }],
     "autoload-dev": {
         "psr-4": { "Tests\\": "tests/" },
         "files": [ "vendor/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php" ]
