@@ -1,0 +1,3 @@
+company_demo_homepage:
+    path:     /
+    defaults: { _controller: CompanyDemoBundle:Default:index }
