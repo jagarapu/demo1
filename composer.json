@@ -16,7 +16,7 @@
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
-    "target-dir" : "Company/DemoBundle",
+    
     "repositories" : [{
     }],
     "autoload-dev": {
